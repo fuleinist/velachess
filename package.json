@@ -41,17 +41,17 @@
     "site:quality": "pnpm --filter @velachess/site build && pnpm --filter @velachess/site test && pnpm site:lighthouse"
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.2.2",
-    "@commitlint/config-conventional": "^21.2.2",
-    "@types/node": "^26.2.0",
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@types/node": "^26.6.2",
     "jsdom": "^30.0.1",
-    "knip": "^6.32.2",
-    "lefthook": "^2.1.10",
-    "oxfmt": "^0.63.0",
-    "oxlint": "^1.78.0",
+    "knip": "^6.38.0",
+    "lefthook": "^2.1.14",
+    "oxfmt": "^0.70.0",
+    "oxlint": "^1.85.0",
     "turbo": "^2.10.11",
     "typescript": "^7.0.2",
-    "vitest": "^4.1.10"
+    "vitest": "^5.0.1"
   },
   "engines": {
     "node": ">=22"
